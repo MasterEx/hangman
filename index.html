@@ -1,0 +1,64 @@
+<html>
+<head>
+<!--[if lt IE 7]>
+<style media="screen" type="text/css">
+#container {
+	height:100%;
+}
+</style>
+<![endif]-->
+<title>HangMan</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+if (typeof jQuery == 'undefined')
+{
+  document.write(unescape("%3Cscript src='js/jquery-1.8.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+<script type="text/javascript" src="js/jquery.twitterbutton.1.1.js"></script>
+<script type="text/javascript" src="js/jquery.gplusone.1.1.js"></script>
+<script type="text/javascript" src="js/jquery.fbjlike.1.4.js"></script>
+<script type="text/javascript" src="js/hangman.js"></script>
+</head>
+<body>	
+<div id="container">
+	<div id="push"></div>
+	<div id="menu"><span id="new-game">New Game</span><br/>
+	<list id="wlist">
+		<ul>Available Word Lists:</ul>
+	</list></div>
+	<div id="share-buttons">
+		<div class="google"></div>
+		<div class="twitter"></div>
+		<div class="facebook"></div>
+	</div>
+		<div id="sheet">
+			<div id="content">
+				<div class="title">
+					The Hangman Game <div id="score"><span id="wins">0</span> :) <span id="loses">0</span> :(</div>
+				</div>
+				<br/>
+				Pick a letter:
+				<div class="letters">
+					<span class="letter">A</span> <span class="letter">B</span> <span class="letter">C</span> <span class="letter">D</span> <span class="letter">E</span> <span class="letter">F</span> <span class="letter">G</span> <span class="letter">H</span> <span class="letter">I</span> <span class="letter">J</span> <span class="letter">K</span> <span class="letter">L</span> <span class="letter">M</span> <span class="letter">N</span> <span class="letter">O</span> <span class="letter">P</span> <span class="letter">Q</span> <span class="letter">R</span> <span class="letter">S</span> <span class="letter">T</span> <span class="letter">U</span> <span class="letter">V</span> <span class="letter">W</span> <span class="letter">X</span> <span class="letter">Y</span> <span class="letter">Z</span>
+				</div>
+				<div class="letters">
+					<span class="letter">a</span> <span class="letter">b</span> <span class="letter">c</span> <span class="letter">d</span> <span class="letter">e</span> <span class="letter">f</span> <span class="letter">g</span> <span class="letter">h</span> <span class="letter">i</span> <span class="letter">j</span> <span class="letter">k</span> <span class="letter">l</span> <span class="letter">m</span> <span class="letter">n</span> <span class="letter">o</span> <span class="letter">p</span> <span class="letter">q</span> <span class="letter">r</span> <span class="letter">s</span> <span class="letter">t</span> <span class="letter">u</span> <span class="letter">v</span> <span class="letter">w</span> <span class="letter">x</span> <span class="letter">y</span> <span class="letter">z</span>
+				</div>
+				<span id="message"></span>
+				<div id="hangman">			
+				</div>
+				<div id="find-word">
+					Find this word:
+				</div>
+				<div id="word"></div>
+				<div id="gtranslate"></div>
+			</div>
+		</div>
+		<div id="pencil"><img src='images/pencil.png'/></div>
+<div id="footer">developed by <a href="http:\\masterex.github.com" target="_blank">Periklis Ntanasis</a> and the institue of foreign languages "<a href="http:\\skandami.gr" target="_blank">E. SKANDAMI-NTANASI</a>"</div>
+</div>
+</body>
+</html>
