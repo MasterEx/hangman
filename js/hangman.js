@@ -139,7 +139,7 @@ $(function() {
 				var lines = data.split("\n");
 				var randomHangman = Math.floor(Math.random()*(lines.length-1));
 				hangman = lines[randomHangman];
-				//$('<img/>')[0].src = hangmans+'/'+hangman+'/'+(1+currentHangman)+'.gif';
+				$('<img/>')[0].src = hangmans+'/'+hangman+'/2.gif';
 			});
 		$.get('words/'+wordsFilename, function(data) {
 			var lines = data.split("\n");

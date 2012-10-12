@@ -132,9 +132,3 @@ $.fn.twitterbutton = function(options) {
   });  
 }  
 })(jQuery);
-
-
-
-
-
-
